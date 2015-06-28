@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-jun-2015, 10:04:28
+    Author     : Brandon
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#aside {
+    background-color: #33ccff;
+    height: 100%;
+    width: 13%;
+    float: left;
+}
+
+#section {
+    background-color: #ccffcc;
+    height: 100%;
+    float: right; 
+    width: 87%;
+}
+
+#footer {
+    background-color: #cccccc;
+    height: 35px;
+
+}
+
+#header {
+    background-color: #999999;
+    height: 20%;
+    text-align: center;
+}
+
+#nav {
+    background-color: #9999ff;
+    text-align: right;
+    text-decoration: none;
+}
+
+#menuHorizontal li a {
+    text-decoration: none;
+    padding-right: 20px;
+
+}
+
+#menuHorizontal li {
+    display: inline;
+}
+
+#cont {
+    height: 553px;
+    background-color: #0033ff
+}
+
+.formulario {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 75px;
+    background-color: #ffff00;
+}
+
+#ingresar {
+    width: 50%;
+    height: 200px;
+}
+
+#registrar {
+    width: 50%;
+    height: 400px;  
+}
+
+h1 {
+    text-align: center;
+}
+
+#menu li a:hover  {
+    background-color: #ff9900;
+
+
+}
+
+#menu li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#menu li {
+    border-color: #003366;
+    border-style: solid;
+    height: 50px;
+
+
+}
+
+#crearPersonaje {
+    text-align: center;
+    padding-top: 40px;
+    background-color: #33ff33;
+}
+
+#personajes {
+    display:block;
+    background-color: #99ccff;
+    width: 200px;
+    height:30px;
+    margin: 10% auto;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+
+}
+
+#historietas {
+    background-color: #99ff99;
+    width: 200px;
+    height:30px;
+    margin: 10% auto;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+#grupoImagenes {
+    padding-top: 20px;
+}
+#grupoImagenes li {
+    display: inline-block;
+    padding-right: 20px;
+}
